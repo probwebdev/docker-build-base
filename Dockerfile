@@ -2,7 +2,7 @@ ARG NODE_VER=18-slim
 
 FROM node:$NODE_VER
 
-ARG PNPM_VER=7.9.3
+ARG PNPM_VER=7.22.0
 
 RUN apt-get update && \
     apt-get install gosu git -y && \
