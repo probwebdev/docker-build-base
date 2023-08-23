@@ -10,7 +10,7 @@ on:
     inputs:
       pnpmVer:
         description: 'PNPM Version'
-        default: "v7.33.6"
+        default: "v8.6.12"
         required: true
         type: string
 
